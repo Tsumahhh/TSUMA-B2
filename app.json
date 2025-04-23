@@ -4,7 +4,7 @@
   "description": "KANGO-XMD, the best WhatsApp Bot in Ghana",
   "logo": "https://i.imgur.com/GVW7aoD.jpeg",
   "keywords": ["whatsapp", "bot", "md"],
-  "repository": "https://github.com/official_kango/KANGO-XMD-V2.git",
+  "repository": "https://github.com/Tsumahhh/TSUMA-B2.git",
   "stack": "container",
   "scripts": {
     "start": "node index.js"
@@ -12,7 +12,7 @@
   "env": {
     "SESSION_ID": {
       "description": "Enter your KANGO-XMD session id here; must start with KANGO~",
-      "value": "",
+      "value": "KANGO~BhQikYLL#yyKVA4UUDywsurs_rnQofkej4Vpn0pdnc8tv2niuKPM",
       "required": false
     },
     "BOT_NAME": {
@@ -22,12 +22,12 @@
     },
     "OWNER_NUMBER": {
       "description": "Enter your number here, starting with country code E.g 233xxxxxxxx",
-      "value": "",
+      "value": "254743399594",
       "required": true
     },
     "OWNER_NAME": {
       "description": "owner name",
-      "value": "",
+      "value": "TSUMA",
       "required": true
     },
     "STICKER_PACK_NAME": {
@@ -42,12 +42,12 @@
     },
     "HEROKU_API_KEY": {
       "description": "Enter heroku API key here",
-      "value": "",
+      "value": "HRKU-526705a6-2bbd-4e48-984f-a9b98a90c334",
       "required": false
     },
     "HEROKU_APP_NAME": {
       "description": "Enter exactly the same app name you've entered above.",
-      "value": "",
+      "value": "Solomon Mbotia",
       "required": false
     },
     "TIMEZONE": {
@@ -57,7 +57,7 @@
     },
    "GITHUB_TOKEN": {
   "description": "IMPORTANT: Follow these steps to generate your GitHub token correctly(Bot will not save settings without it!). Go to https://github.com/settings/tokens, select 'Tokens (classic)', then tap 'Generate new token' and select 'Generate new token (classic)'. Enter any note, choose 'No expiration', and under 'Select scopes', tick 'repo'. Scroll down, generate the token, and copy it. Paste it here. If using a single token for multiple bots, change the owner number to avoid settings mixups.",
-  "value": "",
+  "value": "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",
   "required": false
 }
 },
